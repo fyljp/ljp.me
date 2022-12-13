@@ -1,0 +1,27 @@
+baseURL = 'https://ljp.me/'
+languageCode = 'zh'
+title = 'Say Something'
+theme = "paper"
+
+#disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # add disqus comments
+[permalinks]
+  '/' = '/:year/:slug'
+
+[params]
+  # color style
+  color = 'linen'                 # linen, wheat, gray, light
+
+  # header social icons
+  # twitter = 'YOUR_TWITTER_ID'     # twitter.com/YOUR_TWITTER_ID
+  # github = 'YOUR_GITHUB_ID'       # github.com/YOUR_GITHUB_ID
+  # instagram = 'YOUR_INSTAGRAM_ID' # instagram.com/YOUR_INSTAGRAM_ID
+  rss = true                      # show rss icon with link
+
+  # home page profile
+  avatar = 'https://ljp.me/img/logo.png'       # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+  name = 'ljp'
+  bio = 'Fellow My Heart'
+
+  # misc
+  disableHLJS = true              # disable requesting highlight.js
+  monoDarkIcon = true             # show monochrome dark mode icon
